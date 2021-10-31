@@ -1,0 +1,30 @@
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+#navbar {
+    width: 25%;
+    background-color: #fff;
+}
+#navbar ul {
+    overflow-y: scroll;
+    height: 650px;
+}
+#navbar header{
+    font-size: 40px;
+    border-bottom: solid 1px black;
+    padding: 25px;
+}
+.nav-link {
+    font-size: 20px;
+    
+}
+#navbar li {
+    border-bottom: solid 1px black;
+    padding: 20px;
+}
+#navbar .last-child {
+    border-bottom: none;
+}
