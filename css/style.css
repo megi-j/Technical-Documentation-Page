@@ -2,11 +2,12 @@
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    background-color: aquamarine;
+    display: flex;
 }
 #navbar {
     width: 25%;
     background-color: #fff;
+    border-right: black solid 3px;
 }
 #navbar ul {
     overflow-y: scroll;
@@ -27,4 +28,24 @@
 }
 #navbar .last-child {
     border-bottom: none;
+}
+#main-doc {
+    width: 75%;
+}
+.main-section header {
+    font-size: 25px;
+    padding: 30px;
+}
+.main-section p {
+    font-size: 18px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+#introduction ul li {
+    font-size: 18px;
+    margin-left: 80px;
+    padding-bottom: 15px;
+}
+#introduction ul {
+    list-style-type: disc;
 }
