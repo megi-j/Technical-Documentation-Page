@@ -5,9 +5,10 @@
     display: flex;
 }
 #navbar {
-    width: 25%;
+    width: 23%;
     background-color: #fff;
     border-right: black solid 3px;
+    position: fixed;
 }
 #navbar ul {
     overflow-y: scroll;
@@ -31,10 +32,12 @@
 }
 #main-doc {
     width: 75%;
+    margin-left: 28%;
 }
 .main-section header {
     font-size: 25px;
     padding: 30px;
+    font-weight: bold;
 }
 .main-section p {
     font-size: 18px;
@@ -48,4 +51,13 @@
 }
 #introduction ul, #what_you_should_already_know ul {
     list-style-type: disc;
+}
+.main-section div {
+    background-color: #fbf8f5;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+.main-section code {
+    font-size: 15px;
 }
