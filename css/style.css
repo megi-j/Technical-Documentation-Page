@@ -1,5 +1,5 @@
 .container {
-    max-width: 1400px;
+    max-width: 1920px;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -7,7 +7,7 @@
 #navbar {
     width: 23%;
     background-color: #fff;
-    border-right: black solid 3px;
+    border-right: #545c65 solid 3px;
     position: fixed;
 }
 #navbar ul {
@@ -15,9 +15,15 @@
     height: 650px;
 }
 #navbar header{
-    font-size: 40px;
+    font-size: 30px;
     border-bottom: solid 1px black;
     padding: 25px;
+    font-family: 'Roboto-b';
+}
+#navbar ul li a {
+    font-size: 18px;
+    color: #545c65;
+    margin-left: 5%;
 }
 .nav-link {
     font-size: 20px;
@@ -25,39 +31,71 @@
 }
 #navbar li {
     border-bottom: solid 1px black;
-    padding: 20px;
+    padding: 15px;
+    font-family: 'Roboto-n';
 }
 #navbar .last-child {
     border-bottom: none;
 }
 #main-doc {
     width: 75%;
-    margin-left: 28%;
+    margin-left: 25%;
 }
 .main-section header {
     font-size: 25px;
     padding: 30px;
-    font-weight: bold;
+    font-family: 'Roboto-b';
 }
 .main-section p {
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 40px;
     padding-bottom: 20px;
+    font-family: 'Roboto-n';
+    line-height: 20px;
+    color: #545c65;
 }
-#introduction ul li, #what_you_should_already_know ul li{
-    font-size: 18px;
+#introduction ul li, #what_you_should_already_know ul li, #while_statement ul li, #function_declarations ul li, #reference ul li{
+    font-size: 15px;
     margin-left: 80px;
     margin-bottom: 15px;
+    line-height: 20px;
+    font-family: 'Roboto-n';
+    color: #545c65;
 }
-#introduction ul, #what_you_should_already_know ul {
+#introduction ul, #what_you_should_already_know ul, #while_statement ul, #function_declarations ul, #reference ul{
     list-style-type: disc;
 }
 .main-section div {
     background-color: #fbf8f5;
     margin-left: 50px;
     margin-bottom: 10px;
-    padding-top: 15px;
+    padding: 15px;
 }
 .main-section code {
+    font-size: 13px;
+    font-family: 'Roboto-n';
+    color: #545c65;
+}
+.main-section div p {
+    padding-left: 0;
+}
+.outside-list {
+    margin-left: 90px;
+    list-style-type: disc;
+}
+.outside-list ul {
+    margin-top: 15px;
+}
+.inside-list {
+    margin-left: 30px;
+    list-style-type: circle;
+}
+#data_types li {
+    margin-bottom: 15px;
     font-size: 15px;
+    color: #545c65;
+    font-family: 'Roboto-n';
+}
+#reference a {
+    color: lightskyblue;
 }
