@@ -21,7 +21,7 @@
     font-family: 'Roboto-b';
 }
 #navbar ul li a {
-    font-size: 18px;
+    font-size: 22px;
     color: #545c65;
     margin-left: 5%;
 }
@@ -33,6 +33,16 @@
     border-bottom: solid 1px black;
     padding: 15px;
     font-family: 'Roboto-n';
+}
+#navbar li:hover {
+    background-color: #fcc3bf;
+}
+:target header {
+    background-color: #fcc3bf;
+    color: #fff;
+}
+#navbar li a:hover {
+    color: #fff;
 }
 #navbar .last-child {
     border-bottom: none;
