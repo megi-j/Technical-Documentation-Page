@@ -35,4 +35,7 @@
     #navbar {
         width: 27%;
     }
+    .main-section header {
+        padding: 15px;
+    }
 }
