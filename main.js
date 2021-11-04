@@ -7,3 +7,6 @@ document.getElementById('burger').addEventListener('click', function(){
     maindoc.style.marginLeft = '15%';
 
 })
+document.getElementById('hide-header').addEventListener('click', function(){
+    navbar.style.display = "none";
+})
