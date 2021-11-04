@@ -3,29 +3,29 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
-.container img {
+/* .container img {
     display: none;
     width: 50px;
     height: 50px;
     margin-top: 20px;
-}
+} */
 #navbar {
     width: 23%;
     background-color: #fff;
     border-right: #545c65 solid 3px;
     position: fixed;
 }
-#hide-header {
+/* #hide-header {
     display: none;
-}
+} */
 #navbar ul {
     overflow-y: scroll;
     height: 650px;
 }
 #navbar header{
-    font-size: 30px;
+    font-size: 25px;
     border-bottom: solid 1px black;
     padding: 25px;
     font-family: 'Roboto-b';
