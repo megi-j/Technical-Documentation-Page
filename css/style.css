@@ -17,6 +17,9 @@
     border-right: #545c65 solid 3px;
     position: fixed;
 }
+#hide-header {
+    display: none;
+}
 #navbar ul {
     overflow-y: scroll;
     height: 650px;

@@ -4,6 +4,6 @@ document.getElementById('burger').addEventListener('click', function(){
     navbar.style.width = '23%';
     let maindoc = document.getElementById('main-doc');
     maindoc.style.width = '60%';
-    maindoc.style.marginLeft = '25%';
+    maindoc.style.marginLeft = '15%';
 
 })
