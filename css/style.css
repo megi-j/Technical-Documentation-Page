@@ -4,6 +4,12 @@
     margin: 0 auto;
     display: flex;
 }
+.container img {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
 #navbar {
     width: 23%;
     background-color: #fff;
@@ -19,6 +25,10 @@
     border-bottom: solid 1px black;
     padding: 25px;
     font-family: 'Roboto-b';
+}
+#navbar ul li {
+    display: flex;
+    flex-direction: column;
 }
 #navbar ul li a {
     font-size: 22px;
