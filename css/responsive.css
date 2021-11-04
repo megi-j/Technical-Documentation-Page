@@ -23,4 +23,16 @@
         margin-top: 450px;
         margin-right: 5px;
     }
+    .main-section p {
+        padding-left: 20px;
+    }
+    .outside-list {
+        margin-left: 70px;
+    }
+    .inside-list {
+        margin-left: 20px;
+    }
+    .main-section div {
+        margin-left: 40px;
+    }
 }
